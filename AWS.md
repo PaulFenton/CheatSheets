@@ -10,4 +10,9 @@
 ```
 eb init
 eb create
+eb list
+```
+### EB configuration
+```
+eb config save --cfg savename
 ```
