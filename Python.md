@@ -20,6 +20,16 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
+### Miniconda
+```
+conda update conda
+conda env list
+conda activate env_name
+conda install package_name
+conda list
+conda deactivate
+```
+
 ## Data Structures
 
 ## Pandas
