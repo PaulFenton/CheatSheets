@@ -23,10 +23,11 @@ pip install -r requirements.txt
 ### Miniconda
 ```
 conda update conda
+conda create --name environment_name
 conda env list
 conda activate env_name
 conda install package_name
-conda list
+conda list -e > requirements.txt
 conda deactivate
 ```
 
