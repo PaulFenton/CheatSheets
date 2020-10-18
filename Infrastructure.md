@@ -7,11 +7,11 @@ docker containers ls\
 docker kill `<container-id>`
   
 #### Centos
-RUN yum update -y
+RUN yum update -y\
 RUN yum install -y <package-name>
 
 #### Debian
-RUN apt-get update -y
+RUN apt-get update -y\
 RUN apt-get install -y <package-name>
 
 
